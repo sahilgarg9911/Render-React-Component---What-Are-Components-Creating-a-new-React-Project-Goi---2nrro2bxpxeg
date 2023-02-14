@@ -1,12 +1,49 @@
-h1 {
-    color: #27aedb;
+.App {
+    font-family: sans-serif;
     text-align: center;
-    }
-    
+}
 
-button{
-    color: #27aedb;
-    text-align: center;
-    justify-content: center;
-    align-items: center;
+table {
+    font-family: Arial, Helvetica, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+}
+
+table td,
+table th {
+    border: 1px solid #ddd;
+    padding: 8px;
+}
+
+table tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+table tr:hover {
+    background-color: #ddd;
+}
+
+table th {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: left;
+    background-color: #04aa6d;
+    color: white;
+}
+
+.button {
+    border: none;
+    outline: none;
+    font-size: 11px;
+    font-family: "Quicksand", sans-serif;
+    color: #f44336;
+    padding: 3px 10px;
+    border-radius: 8px;
+    cursor: pointer;
+    border: 1px solid #f44336;
+    background-color: transparent;
+}
+
+.button:active {
+    border: 1px solid blue;
 }
